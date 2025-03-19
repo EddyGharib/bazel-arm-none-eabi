@@ -38,7 +38,7 @@ filegroup(
     srcs = [
       PREFIX,
       "{}/lib".format(PREFIX),
-    ] + glob(["lib/gcc/{}/*".format(PREFIX)]),
+    ],
 )
 
 # libraries, headers and executables.
